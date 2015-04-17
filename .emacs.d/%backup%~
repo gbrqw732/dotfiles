@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# NLAP形式のelem(ft17), node(ft16)からQGISに読み込めるCSVファイルに並び替える
+ARRANGE_QGIS=/home/86933/work/Etcetra/Programs/python/ArrangeQGIS/arrange_qgis.py
+
+if [ $# -ne 1 ]; then
+    echo arrange_qgis [nlap_msh_file] 1>&2
+    exit
+fi
+
+input=$1
+bn=`basename $input`
+output=${bn%.msh}_QGIS.csv
+echo "Entering: $0"
+echo "input: $input"
+
+awk 'NF==3{print $0}' $input > node.dat
+awk 'NF==9{print $0}' $input > elem.dat
+
+$ARRANGE_QGIS elem.dat node.dat $output
+rm -v node.dat elem.dat

@@ -1,0 +1,25 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("work@tsc08dtp533"
+ (filename . "//tsc08dtp533/646g00148/home/work/")
+ (front-context-string . "Etcetra\n  drwxrw")
+ (rear-context-string . "s 0 07-03 10:54 ")
+ (position . 234))
+("荒浜側土堰堤"
+ (filename . "p:/耐震技術部（共通）/柏崎ストレステスト/KK防潮堤/荒浜側土堰堤/")
+ (front-context-string . "20130416(五味渕→小瀬木")
+ (rear-context-string . "  0 04-17 17:20 ")
+ (position . 274))
+("KK防潮堤"
+ (filename . "p:/耐震技術部（共通）/柏崎ストレステスト/KK防潮堤/")
+ (front-context-string . "120803市川_防潮堤検討断面")
+ (rear-context-string . "  0 2012-10-22  ")
+ (position . 267))
+("k5-2012release"
+ (filename . "~/work/KK/k5-2012release/")
+ (front-context-string . "flush\n  -rw-rw-r")
+ (rear-context-string . "  0 10-30 17:30 ")
+ (position . 563))
+)

@@ -1,0 +1,23 @@
+pwd
+ls
+gerp 'VER' *ft15
+grpe 'VER' *ft15
+grep 'VER' *ft15
+ls
+which perl
+ls
+ps ux
+exit
+ls
+echo $path
+ls
+exit
+ls
+sh ./pickup_residual_disp.sh 
+bash ./pickup_residual_disp.sh 
+ls
+date
+sh
+exit
+perl ./make+freefield_form.pl 
+./make+freefield_form.pl 
